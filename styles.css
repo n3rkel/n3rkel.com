@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    color: white; 
+    text-shadow: 0 0 0px, 0 0 3px white; 
+    font-size: 12px;
+    letter-spacing: 1px;
+    background-repeat: repeat;
+    background-position: center;
+    height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #121212; 
+}
+
+#container {
+    width: 1000px;
+    background-color: #1e1e1e; 
+    border: 1px solid #333333; 
+    padding: 20px;
+    margin-top: 20px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+#navbar {
+    background-color: #000; 
+    color: #bbbbbb; 
+    padding: 10px;
+    text-align: center;
+}
+
+#navbar a {
+    color: #bbbbbb; 
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+#content {
+    display: flex;
+}
+
+#main {
+    flex: 1;
+    padding: 20px;
+}
+
+#left-aside {
+    width: 200px;
+    background-color: #2a2a2a; 
+    padding: 20px;
+    border-right: 1px solid #333333; 
+}
+
+#footer {
+    background-color: #000; 
+    color: #ffffff; 
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #dddddd; 
+}
+
+a {
+    color: #3399ff; 
+}
+
+/* Light mode styles */
+body.light-mode {
+    color: black;
+    background-color: #ffffff;
+    text-shadow: 0 0 0px, 0 0 3px rgb(0, 0, 0);
+}
+
+body.light-mode #container {
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+body.light-mode #navbar {
+    background-color: #333;
+}
+
+body.light-mode #navbar a {
+    color: #ffffff;
+}
+
+body.light-mode #left-aside {
+    background-color: #f9f9f9;
+    border-right: 1px solid #cccccc;
+}
+
+body.light-mode h1, body.light-mode h2 {
+    color: #333;
+}
+
+body.light-mode a {
+    color: #0066cc;
+}
+
+body.light-mode #footer {
+    background-color: #333;
+}
