@@ -1,2 +1,2 @@
 # n3rkel.com
-source code for my personal website
+source code of my personal website
